@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style media="screen">
+
+        
+        .container-1 div,.container-2 .box {
+            border: 1px #ccc solid;
+            padding: 10px;
+        }
+        
+
+        .container-1 {
+            display: flex;
+            align-items: stretch;
+            
+        }
+
+        .box-1 {
+            flex: 1;
+        }
+
+        .box-2 {
+            flex: 2;
+        }
+
+        .box-3 {
+            flex: 1;
+        }
+        @media (min-width : 768px) {
+            .container-2 {
+                display : flex;
+                justify-content : space-evenly;
+            }
+            .box {
+                flex-basis : 25%;
+                background-color: red;
+            }   
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h2>Box one</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis!
+            </p>
+        </div>
+        <div class="box-2">
+            <h2>Box Two</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis! This is the box two and has more content plaese make a not
+                of it.
+            </p>
+        </div>
+        <div class="box-3">
+            <h2>Box Three</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis!
+            </p>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="box">
+            <h2>Box one</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quod!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, rem. Eaque dolorem quia ipsum voluptate.
+            </p>
+        </div>
+        <div class="box">
+            <h2>Box Two</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis! This is the box two and has more content plaese make a not
+                of it. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, rem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, eveniet?
+            </p>
+        </div>
+        <div class="box">
+            <h2>Box Three</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                veritatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta beatae, quae ex praesentium, sapiente tenetur minus rem quis porro autem reprehenderit adipisci nostrum assumenda omnis dolore aut doloribus dolores doloremque.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
