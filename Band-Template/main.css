@@ -77,3 +77,15 @@
     margin : auto;
 }
 
+.image-text {
+    position: absolute;
+    bottom : 10%;
+    left : 45%
+}
+
+@media (max-width:900px) {
+    .image-text{
+        display : none;
+    }
+}
+
