@@ -29,6 +29,7 @@
 .tour-section {
     max-width: 900px;
     margin : auto;
+    padding : 10px;
 }
 
 .tour-section .center-head {
@@ -36,18 +37,43 @@
     padding : 20px;
 }
 
-section {
+.tours-container-section {
     background-color : black;
 }
 
 .tour-cards {
     display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
 }
 
 .tour-card {
     max-width : 250px;
-    margin : 20px;
     background-color: white;
-    padding : 20px;
+    padding : 30px;
+    margin : 30px auto;
+}
+
+.contact {
+    max-width: 900px;
+    display : flex;
+    flex-wrap: wrap;
+    margin : auto;
+}
+
+.contact-child {
+    max-width : 400px;
+    margin : auto;
+    padding : 10px;
+}
+
+.detail-icon {
+    margin-right: 20px;
+}
+
+.footer-div {
+    text-align: center;
+    max-width : 400px;
+    margin : auto;
 }
 
