@@ -1,0 +1,26 @@
+.main-div {
+    width : 90%;
+    margin : 20px auto;
+}
+
+
+.fas {
+    margin-right : 10px;
+}
+
+.left-card-div {
+    margin-bottom: 32px;
+}
+
+.card {
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    margin-bottom : 20px;
+}
+
+.work {
+    padding : 10px;
+}
+
+.footer-div {
+    background-color: #009688 ;
+}
