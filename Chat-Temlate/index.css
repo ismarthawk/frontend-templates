@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding : 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* background-color: #54BAB9; */
+    z-index : -1;
+}
+
+.chat-container {
+    /* position: absolute; */
+    max-width: 800px;
+    margin: 2px auto;
+    /* border: 2px solid black; */
+    height : 99vh;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.top-container {
+    padding : 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #91C483;
+    color : white;
+    border-radius: 10px 10px 0 0;
+}
+
+.top-container button {
+    padding : 3px 15px;
+    border : none;
+    font-size : 1.5rem;
+    color : white;
+    background-color: #91C483;
+}
+
+.top-container button:hover {
+    color : #91C483;
+    background-color: white;
+}
+
+.messages-container {
+    max-height: 75%;
+    padding : 10px 50px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.received-message {
+    display: block;
+    position: relative;
+    float: left;
+    padding : 20px;
+    max-width : 400px;
+    word-wrap: break-word;
+    background-color: #F7ECDE;
+    border-radius: 0 10px 10px 10px;
+    margin-bottom : 20px;
+    margin-right : auto;
+    margin-left : 0;
+}
+
+.sent-message {
+    display: block;
+    position: relative;
+    float: right;
+    padding : 20px;
+    max-width : 400px;
+    word-wrap: break-word;
+    background-color: #91C483;
+    border-radius: 10px 0 10px 10px;
+    margin-bottom: 20px;
+    margin-left : auto ;
+    margin-right : 0;
+}
+
+.bottom-container {
+    display: flex;
+    background-color: #91C483;
+    justify-content: space-between;
+    padding : 15px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.bottom-container input {
+    width: 700px;   
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px 10px;
+}
+
+.bottom-container button {
+    font-size: 1.5rem;
+    width : 50px;
+    height : 50px;
+}
