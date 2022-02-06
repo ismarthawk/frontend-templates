@@ -4,3 +4,5 @@
 - [Blog-Template](https://ismarthawk.github.io/frontend-templates/My-Blog/)
 
 - [CV-Template](https://ismarthawk.github.io/frontend-templates/CV/)
+
+- [Chat-Template](https://ismarthawk.github.io/frontend-templates/Chat-Temlate/)
